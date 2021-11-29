@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Laura Puckett"
   avatar           : "headshot.jpg"
-  bio              : "Environmental Modeling | Data Science | Remote Sensing"
+  bio              : "Environmental Modeling |Data Science | Remote Sensing"
   location         : "Flagstaff, Arizona"
   employer         :
   email            :
@@ -173,7 +173,7 @@ kramdown:
 
 # Collections
 collections:
-  education:
+  teaching:
     output: true
     permalink: /:collection/:path/
   publications:
@@ -185,6 +185,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+writing:
+  output: true
+  permalink: /:collection/:path/
 
 
 # Defaults
@@ -199,22 +202,22 @@ defaults:
       read_time: false
       comments: false
       share: false
-      related: false
+      related: true
   # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   # _teaching
   - scope:
       path: ""
-      type: education
+      type: teaching
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: false
   # _publications
   - scope:
@@ -223,7 +226,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: false
   # _portfolio
   - scope:
@@ -231,8 +234,8 @@ defaults:
       type: portfolio
     values:
       layout: single
-      author_profile: true
-      share: true
+      author_profile: false
+      share: false
       comment: false
   # _talks
   - scope:
@@ -241,7 +244,7 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true
+      share: false
 
 # Sass/SCSS
 sass:
