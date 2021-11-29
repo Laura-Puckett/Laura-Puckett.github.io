@@ -1,10 +1,10 @@
 ---
-title: "(2) NEON Woody Vegetation Visualization"
-excerpt: "A shiny app to visualize the relationship between tree height and diameter for multiple sites. <br/><img src='/images/NEON_app_demo.gif'>"
+title: "(2) Statistically Downscaling Meteorological Forecasts "
+excerpt: "A meteorological downscaling project that I worked on during my senior year at Virginia Tech. The work ultimately contributed to a publication. <br/><img src='/images/portfolio/downscaling_thumbnail.png'>"
 collection: portfolio
 ---
 
-A simple project to download, organize, and interactively view NEON data.
+- My Written Report [link](http://localhost:4000/writing/writing-sample-2/)
+- Code Repository [link](https://github.com/EcoDynForecast/NOAA_download_downscale)
 
-- Interactive App [link](https://laurapuckett.shinyapps.io/NEON_Woody_Plant_Veg_Structure_Vis/)
-- Code Repository [link](https://github.com/Laura-Puckett/NEON_woody_data_visualization)
+This work contributed to the [publication](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019WR026138), <b>A Near-Term Iterative Forecasting System Successfully Predicts Reservoir Hydrodynamics and Partitions Uncertainty in Real Time<b/>.
