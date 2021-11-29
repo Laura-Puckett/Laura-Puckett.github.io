@@ -1,6 +1,6 @@
 ---
 title: "(4) NEON Woody Vegetation Visualization"
-excerpt: "A shiny app to visualize the relationship between tree height and diameter for multiple sites. <br/><img src='/images/portfolio/NEON_app_demo.gif'>"
+excerpt: "A simple app to visualize the relationship between tree height and diameter for multiple sites. <br/><img src='/images/portfolio/NEON_app_demo.gif'>"
 collection: portfolio
 ---
 
