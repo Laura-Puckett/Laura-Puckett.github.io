@@ -1,16 +1,28 @@
 ---
-title: "Studying Tree Competition and Mortality "
-excerpt: "An independent project that I conducted to study the interactions between forest growth, competition, and mortality during a summer internship at Harvard Forest. <br/><img src='/images/portfolio/HarvardForest_thumbnail.png'>"
+title: "Comparison of Satellite and Airborne LiDAR data"
+excerpt: "An exploratory project to compare GEDI and ICESat-2 data against 3DEP discrete-return LiDAR data. <br/><br/><img src='/images/portfolio/gedi_icesat2_als_comparison.png'>"
 collection: portfolio
 ---
-The goal of this project was to explore the relationship between tree growth, competition, and background (unexplained) mortality. This is a project that I conducted as part of a summer internship at Harvard Forest. I used both long-term datasets and field-data that I collected for the analysis. For each 10m diameter forest inventory plot, I matched multiple years of data to determine the annual diameter growth increment for each tree. I also calculated a competition value for each tree in each year. The competition index was based on (1) the ratio of a tree's size to it's neighbors and (2) the distance to neighboring trees. I also used time-series analysis to gap-fill values for neighboring trees that did not have data in every year because they were located outside of the plot.
+In this project, I created a workflow to compare GEDI and ICESat-2 against high-quality discrete-return LiDAR data for an area of interest. The area used for this analysis is a portion of the Sierra Nevada Mountain Range near Lake Tahoe.
 
-| ![](/images/portfolio/HarvardForest_thumbnail.png) |
-|:--:|
-| Growth vs Competition Index and Tree Mortality for Three Common Species. |
+- [Code Repository](https://github.com/Laura-Puckett/lidar_comparisons/tree/NAU)
 
-For hemlock, a shade-tolerant species, there was almost no correlation between competition index and growth increment. Additionally, there was no mortality recorded for hemlock trees in this time period, even at high levels of competition.
+The main steps are to:
+- download and subset ICESat-2 data for an area of interest
+- create spatial geometries from ICESat-2 and GEDI data csv files
+  - * this involved creating different geometries for the two instruments, because they
+  have different pulse footprints
+- extract corresponding discrete-return data for each geometry and calculate
+height metrics
+- intersect geometries with forest group and forest cover layers and calculate summary values for each polygon
+- plot the results
 
-For red maple, a fairly shade tolerant species, there was an inverse relationship between competition index and growth. However, competition was not an important predictor of mortality because the mortality occurred evenly across the range of competition values.
+Datasets
 
-For red oak, a shade intolerant species, there was a stronger relationship between competition index and growth. Additionally, mortality occurred only at high competition values suggesting that high tree competition may increase likelihood of mortality for red oak.
+Dubayah, R., Hofton, M., Blair, J., Armston, J., Tang, H., Luthcke, S. (2020). <i>GEDI L2A Elevation and Height Metrics Data Global Footprint Level  V001</i> [Data set]. NASA EOSDIS Land Processes DAAC. Accessed 2020-08-15 from [https://doi.org/10.5067/GEDI/GEDI02_A.001](https://doi.org/10.5067/GEDI/GEDI02_A.001)
+
+Neuenschwander, A. L., K. L. Pitts, B. P. Jelley, J. Robbins, B. Klotz, S. C. Popescu, R. F. Nelson, D. Harding, D. Pederson, and R. Sheridan. 2021. ATLAS/ICESat-2 L3A Land and Vegetation Height, Version 5. [Indicate subset used]. Boulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. doi: https://doi.org/10.5067/ATLAS/ATL08.005. [2020-08-15].
+
+CA NoCAL Wildfires B1 2018: Discrete-Return LiDAR Data downloaded from [USGS 3DEP LiDAR Explorer](https://prd-tnm.s3.amazonaws.com/LidarExplorer/index.html#/)
+
+B. Ruefenacht, M.V. Finco, M.D. Nelson, R. Czaplewski, <i> et al. <i> (2008). Conterminous U.S. and Alaska Forest Type Mapping Using Forest Inventory and Analysis Data. USDA Forest Service - Forest Inventory and Analysis (FIA) Program & Geospatial Technology and Applications Center (GTAC). Accessed 2020-08-20 from [https://data.fs.usda.gov/geodata/rastergateway/forest_type/](https://data.fs.usda.gov/geodata/rastergateway/forest_type/)
