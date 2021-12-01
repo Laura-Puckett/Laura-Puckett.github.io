@@ -10,7 +10,7 @@ In this project, I created a workflow to compare GEDI and ICESat-2 against high-
 The main steps are to:
 - download and subset ICESat-2 data for an area of interest
 - create spatial geometries from ICESat-2 and GEDI data csv files
-  - * this involved creating different geometries for the two instruments, because they
+  - this involved creating different geometries for the two instruments, because they
   have different pulse footprints
 - extract corresponding discrete-return data for each geometry and calculate
 height metrics

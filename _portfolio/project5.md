@@ -3,7 +3,9 @@ title: "Studying Tree Competition and Mortality "
 excerpt: "An independent project that I conducted to study the interactions between forest growth, competition, and mortality during a summer internship at Harvard Forest. <br/><img src='/images/portfolio/HarvardForest_thumbnail.png'>"
 collection: portfolio
 ---
-The goal of this project was to explore the relationship between tree growth, competition, and background (unexplained) mortality. This is a project that I conducted as part of a summer internship at Harvard Forest. I used both long-term datasets and field-data that I collected for the analysis. For each 10m diameter forest inventory plot, I matched multiple years of data to determine the annual diameter growth increment for each tree. I also calculated a competition value for each tree in each year. The competition index was based on (1) the ratio of a tree's size to it's neighbors and (2) the distance to neighboring trees. I also used time-series analysis to gap-fill values for neighboring trees that did not have data in every year because they were located outside of the plot.
+The goal of this project was to explore the relationship between tree growth, competition, and background (unexplained) mortality. This is a project that I conducted as part of a summer internship at Harvard Forest.
+
+In this project, I used both long-term datasets and field-data that I collected. For each 10m diameter forest inventory plot, I matched multiple years of data to determine the annual diameter growth increment for each tree. I also calculated a competition value for each tree in each year. The competition index was based on (1) the ratio of a tree's size to it's neighbors and (2) the distance to neighboring trees. I also used time-series analysis to gap-fill values for neighboring trees that did not have data in every year because they were located outside of the plot.
 
 | ![](/images/portfolio/HarvardForest_thumbnail.png) |
 |:--:|
