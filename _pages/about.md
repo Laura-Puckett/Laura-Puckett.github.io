@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am an aspiring data scientist and ecologist. While getting my B.S. at Virginia Tech, I was a member of the Ecosystem Dynamics and Forecasting Lab. Then I joined the [Global Earth Observation and Dynamics of Ecosystem Lab](https://goetzlab.rc.nau.edu/) at Northern Arizona University while getting my M.S. in Informatics. Now I am looking for a new opportunity to put my data visualization and environmental modeling skills to use.
+I am an aspiring data scientist and ecologist. It all started when I joined the Ecosystem Dynamics and Forecasting Lab while getting my B.S. from Virginia Tech. I quickly realized that I really like writing scripts to analyze and visualize environmental datasets. Wanting to get more experience working with remote sensing and large spatial datasets, I joined the [Global Earth Observation and Dynamics of Ecosystem Lab](https://goetzlab.rc.nau.edu/) at Northern Arizona University and completed an M.S. in Informatics. Now I am looking for a new opportunity to put my data visualization and environmental modeling skills to use.
