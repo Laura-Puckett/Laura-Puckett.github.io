@@ -8,6 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am seeking a role that will utilize my interdiscplinary background in data science, forest science, and climate science to find solution to ecological and environmental problems.
 
-It all started when I took a climate science class at Virginia Tech and learned about the important and complex carbon dynamics of terrestrial ecosystems. I changed my major from Engineering to Environmental Informatics and started doing undergraduate research with the Ecosystem Dynamics and Forecasting Lab at Virginia Tech, where I discovered my love for scripting and data analysis. Wanting to get more experience working with remote sensing and large spatial datasets, I joined the [Global Earth Observation and Dynamics of Ecosystem Lab](https://goetzlab.rc.nau.edu/) at Northern Arizona University and completed an M.S. in Informatics. I also worked for the Forest Service in Arizona's [Forest Health Protection Department](https://www.fs.usda.gov/foresthealth/), and then spent 1.5 years working as a Data Science Educator developing software and education materials for [Posit Academy](https://posit.co/products/enterprise/academy/).
+Data‑science professional with 5 + years of experience developing geospatial analytics, remote‑sensing pipelines, and reproducible reporting tools for government, research, and private‑sector clients. Skilled at transforming diverse datasets—field inventories, large‑scale satellite and LiDAR imagery, and GIS layers—into clear, actionable insights. Experience includes supporting forest‑health monitoring for the U.S. Forest Service, leading GIS analytics for a $2.1 M county grant, and creating data‑science curricula for a global audience at Posit Academy.
+
+I am currently refocusing on forest ecology and carbon‑sequestration solutions, leveraging an interdisciplinary background in data analysis, forest science, and climate science to deliver data‑driven outcomes for environmental projects.
